@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "5OQFmgTS7KhBsqYlbhfR+aXg9shkVORDGfKbceRGJlg=",
+  "Source": "SistemaBebida.API",
+  "BasePath": "_content/SistemaBebida.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

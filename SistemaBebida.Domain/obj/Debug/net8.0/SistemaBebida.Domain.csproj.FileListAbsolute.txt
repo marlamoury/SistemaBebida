@@ -1,0 +1,12 @@
+C:\Users\marla\source\repos\SistemaBebida\SistemaBebida.Domain\bin\Debug\net8.0\SistemaBebida.Domain.deps.json
+C:\Users\marla\source\repos\SistemaBebida\SistemaBebida.Domain\bin\Debug\net8.0\SistemaBebida.Domain.dll
+C:\Users\marla\source\repos\SistemaBebida\SistemaBebida.Domain\bin\Debug\net8.0\SistemaBebida.Domain.pdb
+C:\Users\marla\source\repos\SistemaBebida\SistemaBebida.Domain\obj\Debug\net8.0\SistemaBebida.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marla\source\repos\SistemaBebida\SistemaBebida.Domain\obj\Debug\net8.0\SistemaBebida.Domain.AssemblyInfoInputs.cache
+C:\Users\marla\source\repos\SistemaBebida\SistemaBebida.Domain\obj\Debug\net8.0\SistemaBebida.Domain.AssemblyInfo.cs
+C:\Users\marla\source\repos\SistemaBebida\SistemaBebida.Domain\obj\Debug\net8.0\SistemaBebida.Domain.csproj.CoreCompileInputs.cache
+C:\Users\marla\source\repos\SistemaBebida\SistemaBebida.Domain\obj\Debug\net8.0\SistemaBebida.Domain.sourcelink.json
+C:\Users\marla\source\repos\SistemaBebida\SistemaBebida.Domain\obj\Debug\net8.0\SistemaBebida.Domain.dll
+C:\Users\marla\source\repos\SistemaBebida\SistemaBebida.Domain\obj\Debug\net8.0\refint\SistemaBebida.Domain.dll
+C:\Users\marla\source\repos\SistemaBebida\SistemaBebida.Domain\obj\Debug\net8.0\SistemaBebida.Domain.pdb
+C:\Users\marla\source\repos\SistemaBebida\SistemaBebida.Domain\obj\Debug\net8.0\ref\SistemaBebida.Domain.dll

@@ -1,0 +1,86 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\marla\\source\\repos\\SistemaBebida\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BCAE8025-46AF-4D9F-824D-4AF02011CC60}|SistemaBebida.Infrastructure\\SistemaBebida.Infrastructure.csproj|c:\\users\\marla\\source\\repos\\sistemabebida\\sistemabebida.infrastructure\\persistence\\revendarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCAE8025-46AF-4D9F-824D-4AF02011CC60}|SistemaBebida.Infrastructure\\SistemaBebida.Infrastructure.csproj|solutionrelative:sistemabebida.infrastructure\\persistence\\revendarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE35F72D-3A2D-478B-BA4A-B8690B855004}|SistemaBebida.Domain\\SistemaBebida.Domain.csproj|c:\\users\\marla\\source\\repos\\sistemabebida\\sistemabebida.domain\\repositories\\irevendarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE35F72D-3A2D-478B-BA4A-B8690B855004}|SistemaBebida.Domain\\SistemaBebida.Domain.csproj|solutionrelative:sistemabebida.domain\\repositories\\irevendarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:11:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RevendaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\marla\\source\\repos\\SistemaBebida\\SistemaBebida.Infrastructure\\Persistence\\RevendaRepository.cs",
+              "RelativeDocumentMoniker": "SistemaBebida.Infrastructure\\Persistence\\RevendaRepository.cs",
+              "ToolTip": "C:\\Users\\marla\\source\\repos\\SistemaBebida\\SistemaBebida.Infrastructure\\Persistence\\RevendaRepository.cs",
+              "RelativeToolTip": "SistemaBebida.Infrastructure\\Persistence\\RevendaRepository.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAADIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T05:25:15.995Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IRevendaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\marla\\source\\repos\\SistemaBebida\\SistemaBebida.Domain\\Repositories\\IRevendaRepository.cs",
+              "RelativeDocumentMoniker": "SistemaBebida.Domain\\Repositories\\IRevendaRepository.cs",
+              "ToolTip": "C:\\Users\\marla\\source\\repos\\SistemaBebida\\SistemaBebida.Domain\\Repositories\\IRevendaRepository.cs",
+              "RelativeToolTip": "SistemaBebida.Domain\\Repositories\\IRevendaRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T05:24:44.005Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
