@@ -3,8 +3,60 @@
   "WorkspaceRootPath": "C:\\Users\\marla\\source\\repos\\SistemaBebida\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{FBE26708-4C29-4693-BB84-19B8AD3120FE}|SistemaBebida.Tests\\SistemaBebida.Tests.csproj|c:\\users\\marla\\source\\repos\\sistemabebida\\sistemabebida.tests\\pedidoclienteservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FBE26708-4C29-4693-BB84-19B8AD3120FE}|SistemaBebida.Tests\\SistemaBebida.Tests.csproj|solutionrelative:sistemabebida.tests\\pedidoclienteservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{709F8BA5-7F5B-4A53-8A4B-D90CDAF4C139}|SistemaBebida.Application\\SistemaBebida.Application.csproj|c:\\users\\marla\\source\\repos\\sistemabebida\\sistemabebida.application\\services\\pedidoclienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{709F8BA5-7F5B-4A53-8A4B-D90CDAF4C139}|SistemaBebida.Application\\SistemaBebida.Application.csproj|solutionrelative:sistemabebida.application\\services\\pedidoclienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83185F22-BE48-4DC1-8FEF-B71BF0F3AE4C}|SistemaBebida.API\\SistemaBebida.API.csproj|c:\\users\\marla\\source\\repos\\sistemabebida\\sistemabebida.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83185F22-BE48-4DC1-8FEF-B71BF0F3AE4C}|SistemaBebida.API\\SistemaBebida.API.csproj|solutionrelative:sistemabebida.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCAE8025-46AF-4D9F-824D-4AF02011CC60}|SistemaBebida.Infrastructure\\SistemaBebida.Infrastructure.csproj|c:\\users\\marla\\source\\repos\\sistemabebida\\sistemabebida.infrastructure\\sistemabebida.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{BCAE8025-46AF-4D9F-824D-4AF02011CC60}|SistemaBebida.Infrastructure\\SistemaBebida.Infrastructure.csproj|solutionrelative:sistemabebida.infrastructure\\sistemabebida.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83185F22-BE48-4DC1-8FEF-B71BF0F3AE4C}|SistemaBebida.API\\SistemaBebida.API.csproj|c:\\users\\marla\\source\\repos\\sistemabebida\\sistemabebida.api\\controllers\\pedidoclientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83185F22-BE48-4DC1-8FEF-B71BF0F3AE4C}|SistemaBebida.API\\SistemaBebida.API.csproj|solutionrelative:sistemabebida.api\\controllers\\pedidoclientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCAE8025-46AF-4D9F-824D-4AF02011CC60}|SistemaBebida.Infrastructure\\SistemaBebida.Infrastructure.csproj|c:\\users\\marla\\source\\repos\\sistemabebida\\sistemabebida.infrastructure\\persistence\\pedidoclienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCAE8025-46AF-4D9F-824D-4AF02011CC60}|SistemaBebida.Infrastructure\\SistemaBebida.Infrastructure.csproj|solutionrelative:sistemabebida.infrastructure\\persistence\\pedidoclienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE35F72D-3A2D-478B-BA4A-B8690B855004}|SistemaBebida.Domain\\SistemaBebida.Domain.csproj|c:\\users\\marla\\source\\repos\\sistemabebida\\sistemabebida.domain\\entities\\pedidocliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE35F72D-3A2D-478B-BA4A-B8690B855004}|SistemaBebida.Domain\\SistemaBebida.Domain.csproj|solutionrelative:sistemabebida.domain\\entities\\pedidocliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{709F8BA5-7F5B-4A53-8A4B-D90CDAF4C139}|SistemaBebida.Application\\SistemaBebida.Application.csproj|c:\\users\\marla\\source\\repos\\sistemabebida\\sistemabebida.application\\clientes\\fornecedorapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{709F8BA5-7F5B-4A53-8A4B-D90CDAF4C139}|SistemaBebida.Application\\SistemaBebida.Application.csproj|solutionrelative:sistemabebida.application\\clientes\\fornecedorapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCAE8025-46AF-4D9F-824D-4AF02011CC60}|SistemaBebida.Infrastructure\\SistemaBebida.Infrastructure.csproj|c:\\users\\marla\\source\\repos\\sistemabebida\\sistemabebida.infrastructure\\persistence\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCAE8025-46AF-4D9F-824D-4AF02011CC60}|SistemaBebida.Infrastructure\\SistemaBebida.Infrastructure.csproj|solutionrelative:sistemabebida.infrastructure\\persistence\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE35F72D-3A2D-478B-BA4A-B8690B855004}|SistemaBebida.Domain\\SistemaBebida.Domain.csproj|c:\\users\\marla\\source\\repos\\sistemabebida\\sistemabebida.domain\\repositories\\ipedidoclienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE35F72D-3A2D-478B-BA4A-B8690B855004}|SistemaBebida.Domain\\SistemaBebida.Domain.csproj|solutionrelative:sistemabebida.domain\\repositories\\ipedidoclienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE35F72D-3A2D-478B-BA4A-B8690B855004}|SistemaBebida.Domain\\SistemaBebida.Domain.csproj|c:\\users\\marla\\source\\repos\\sistemabebida\\sistemabebida.domain\\entities\\revenda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE35F72D-3A2D-478B-BA4A-B8690B855004}|SistemaBebida.Domain\\SistemaBebida.Domain.csproj|solutionrelative:sistemabebida.domain\\entities\\revenda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83185F22-BE48-4DC1-8FEF-B71BF0F3AE4C}|SistemaBebida.API\\SistemaBebida.API.csproj|c:\\users\\marla\\source\\repos\\sistemabebida\\sistemabebida.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{83185F22-BE48-4DC1-8FEF-B71BF0F3AE4C}|SistemaBebida.API\\SistemaBebida.API.csproj|solutionrelative:sistemabebida.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BCAE8025-46AF-4D9F-824D-4AF02011CC60}|SistemaBebida.Infrastructure\\SistemaBebida.Infrastructure.csproj|c:\\users\\marla\\source\\repos\\sistemabebida\\sistemabebida.infrastructure\\persistence\\revendarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BCAE8025-46AF-4D9F-824D-4AF02011CC60}|SistemaBebida.Infrastructure\\SistemaBebida.Infrastructure.csproj|solutionrelative:sistemabebida.infrastructure\\persistence\\revendarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE35F72D-3A2D-478B-BA4A-B8690B855004}|SistemaBebida.Domain\\SistemaBebida.Domain.csproj|c:\\users\\marla\\source\\repos\\sistemabebida\\sistemabebida.domain\\entities\\enderecoentrega.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE35F72D-3A2D-478B-BA4A-B8690B855004}|SistemaBebida.Domain\\SistemaBebida.Domain.csproj|solutionrelative:sistemabebida.domain\\entities\\enderecoentrega.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FE35F72D-3A2D-478B-BA4A-B8690B855004}|SistemaBebida.Domain\\SistemaBebida.Domain.csproj|c:\\users\\marla\\source\\repos\\sistemabebida\\sistemabebida.domain\\repositories\\irevendarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -18,7 +70,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,29 +106,190 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "RevendaRepository.cs",
-              "DocumentMoniker": "C:\\Users\\marla\\source\\repos\\SistemaBebida\\SistemaBebida.Infrastructure\\Persistence\\RevendaRepository.cs",
-              "RelativeDocumentMoniker": "SistemaBebida.Infrastructure\\Persistence\\RevendaRepository.cs",
-              "ToolTip": "C:\\Users\\marla\\source\\repos\\SistemaBebida\\SistemaBebida.Infrastructure\\Persistence\\RevendaRepository.cs",
-              "RelativeToolTip": "SistemaBebida.Infrastructure\\Persistence\\RevendaRepository.cs",
-              "ViewState": "AQIAACQAAAAAAAAAAAAAADIAAAAAAAAA",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\marla\\source\\repos\\SistemaBebida\\SistemaBebida.API\\Program.cs",
+              "RelativeDocumentMoniker": "SistemaBebida.API\\Program.cs",
+              "ToolTip": "C:\\Users\\marla\\source\\repos\\SistemaBebida\\SistemaBebida.API\\Program.cs",
+              "RelativeToolTip": "SistemaBebida.API\\Program.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-16T05:25:15.995Z",
+              "WhenOpened": "2025-03-18T05:02:12.961Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PedidoClienteServiceTests.cs",
+              "DocumentMoniker": "C:\\Users\\marla\\source\\repos\\SistemaBebida\\SistemaBebida.Tests\\PedidoClienteServiceTests.cs",
+              "RelativeDocumentMoniker": "SistemaBebida.Tests\\PedidoClienteServiceTests.cs",
+              "ToolTip": "C:\\Users\\marla\\source\\repos\\SistemaBebida\\SistemaBebida.Tests\\PedidoClienteServiceTests.cs",
+              "RelativeToolTip": "SistemaBebida.Tests\\PedidoClienteServiceTests.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwB4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T01:29:28.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SistemaBebida.Infrastructure.csproj",
+              "DocumentMoniker": "C:\\Users\\marla\\source\\repos\\SistemaBebida\\SistemaBebida.Infrastructure\\SistemaBebida.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "SistemaBebida.Infrastructure\\SistemaBebida.Infrastructure.csproj",
+              "ToolTip": "C:\\Users\\marla\\source\\repos\\SistemaBebida\\SistemaBebida.Infrastructure\\SistemaBebida.Infrastructure.csproj",
+              "RelativeToolTip": "SistemaBebida.Infrastructure\\SistemaBebida.Infrastructure.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-18T04:15:59.52Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "PedidoClienteService.cs",
+              "DocumentMoniker": "C:\\Users\\marla\\source\\repos\\SistemaBebida\\SistemaBebida.Application\\Services\\PedidoClienteService.cs",
+              "RelativeDocumentMoniker": "SistemaBebida.Application\\Services\\PedidoClienteService.cs",
+              "ToolTip": "C:\\Users\\marla\\source\\repos\\SistemaBebida\\SistemaBebida.Application\\Services\\PedidoClienteService.cs",
+              "RelativeToolTip": "SistemaBebida.Application\\Services\\PedidoClienteService.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAowCIAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T01:24:14.929Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PedidoClienteController.cs",
+              "DocumentMoniker": "C:\\Users\\marla\\source\\repos\\SistemaBebida\\SistemaBebida.API\\Controllers\\PedidoClienteController.cs",
+              "RelativeDocumentMoniker": "SistemaBebida.API\\Controllers\\PedidoClienteController.cs",
+              "ToolTip": "C:\\Users\\marla\\source\\repos\\SistemaBebida\\SistemaBebida.API\\Controllers\\PedidoClienteController.cs",
+              "RelativeToolTip": "SistemaBebida.API\\Controllers\\PedidoClienteController.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAowC8AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T01:02:49.632Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FornecedorApiClient.cs",
+              "DocumentMoniker": "C:\\Users\\marla\\source\\repos\\SistemaBebida\\SistemaBebida.Application\\Clientes\\FornecedorApiClient.cs",
+              "RelativeDocumentMoniker": "SistemaBebida.Application\\Clientes\\FornecedorApiClient.cs",
+              "ToolTip": "C:\\Users\\marla\\source\\repos\\SistemaBebida\\SistemaBebida.Application\\Clientes\\FornecedorApiClient.cs",
+              "RelativeToolTip": "SistemaBebida.Application\\Clientes\\FornecedorApiClient.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAB0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T01:11:59.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PedidoClienteRepository.cs",
+              "DocumentMoniker": "C:\\Users\\marla\\source\\repos\\SistemaBebida\\SistemaBebida.Infrastructure\\Persistence\\PedidoClienteRepository.cs",
+              "RelativeDocumentMoniker": "SistemaBebida.Infrastructure\\Persistence\\PedidoClienteRepository.cs",
+              "ToolTip": "C:\\Users\\marla\\source\\repos\\SistemaBebida\\SistemaBebida.Infrastructure\\Persistence\\PedidoClienteRepository.cs",
+              "RelativeToolTip": "SistemaBebida.Infrastructure\\Persistence\\PedidoClienteRepository.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAowB4AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T04:42:20.924Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PedidoCliente.cs",
+              "DocumentMoniker": "C:\\Users\\marla\\source\\repos\\SistemaBebida\\SistemaBebida.Domain\\Entities\\PedidoCliente.cs",
+              "RelativeDocumentMoniker": "SistemaBebida.Domain\\Entities\\PedidoCliente.cs",
+              "ToolTip": "C:\\Users\\marla\\source\\repos\\SistemaBebida\\SistemaBebida.Domain\\Entities\\PedidoCliente.cs",
+              "RelativeToolTip": "SistemaBebida.Domain\\Entities\\PedidoCliente.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAowAsAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T01:34:17.488Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\marla\\source\\repos\\SistemaBebida\\SistemaBebida.Infrastructure\\Persistence\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "SistemaBebida.Infrastructure\\Persistence\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\marla\\source\\repos\\SistemaBebida\\SistemaBebida.Infrastructure\\Persistence\\AppDbContext.cs",
+              "RelativeToolTip": "SistemaBebida.Infrastructure\\Persistence\\AppDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T01:06:08.314Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IPedidoClienteRepository.cs",
+              "DocumentMoniker": "C:\\Users\\marla\\source\\repos\\SistemaBebida\\SistemaBebida.Domain\\Repositories\\IPedidoClienteRepository.cs",
+              "RelativeDocumentMoniker": "SistemaBebida.Domain\\Repositories\\IPedidoClienteRepository.cs",
+              "ToolTip": "C:\\Users\\marla\\source\\repos\\SistemaBebida\\SistemaBebida.Domain\\Repositories\\IPedidoClienteRepository.cs",
+              "RelativeToolTip": "SistemaBebida.Domain\\Repositories\\IPedidoClienteRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T03:58:24.257Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Revenda.cs",
+              "DocumentMoniker": "C:\\Users\\marla\\source\\repos\\SistemaBebida\\SistemaBebida.Domain\\Entities\\Revenda.cs",
+              "RelativeDocumentMoniker": "SistemaBebida.Domain\\Entities\\Revenda.cs",
+              "ToolTip": "C:\\Users\\marla\\source\\repos\\SistemaBebida\\SistemaBebida.Domain\\Entities\\Revenda.cs",
+              "RelativeToolTip": "SistemaBebida.Domain\\Entities\\Revenda.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA0AAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T00:36:24.182Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\marla\\source\\repos\\SistemaBebida\\SistemaBebida.API\\appsettings.json",
+              "RelativeDocumentMoniker": "SistemaBebida.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\marla\\source\\repos\\SistemaBebida\\SistemaBebida.API\\appsettings.json",
+              "RelativeToolTip": "SistemaBebida.API\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-16T11:33:11.31Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "RevendaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\marla\\source\\repos\\SistemaBebida\\SistemaBebida.Infrastructure\\Persistence\\RevendaRepository.cs",
+              "RelativeDocumentMoniker": "SistemaBebida.Infrastructure\\Persistence\\RevendaRepository.cs",
+              "ToolTip": "C:\\Users\\marla\\source\\repos\\SistemaBebida\\SistemaBebida.Infrastructure\\Persistence\\RevendaRepository.cs",
+              "RelativeToolTip": "SistemaBebida.Infrastructure\\Persistence\\RevendaRepository.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAB4AAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T05:25:15.995Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "EnderecoEntrega.cs",
+              "DocumentMoniker": "C:\\Users\\marla\\source\\repos\\SistemaBebida\\SistemaBebida.Domain\\Entities\\EnderecoEntrega.cs",
+              "RelativeDocumentMoniker": "SistemaBebida.Domain\\Entities\\EnderecoEntrega.cs",
+              "ToolTip": "C:\\Users\\marla\\source\\repos\\SistemaBebida\\SistemaBebida.Domain\\Entities\\EnderecoEntrega.cs",
+              "RelativeToolTip": "SistemaBebida.Domain\\Entities\\EnderecoEntrega.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAqwCIAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T00:42:06.479Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "IRevendaRepository.cs",
               "DocumentMoniker": "C:\\Users\\marla\\source\\repos\\SistemaBebida\\SistemaBebida.Domain\\Repositories\\IRevendaRepository.cs",
               "RelativeDocumentMoniker": "SistemaBebida.Domain\\Repositories\\IRevendaRepository.cs",
               "ToolTip": "C:\\Users\\marla\\source\\repos\\SistemaBebida\\SistemaBebida.Domain\\Repositories\\IRevendaRepository.cs",
               "RelativeToolTip": "SistemaBebida.Domain\\Repositories\\IRevendaRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAhAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-16T05:24:44.005Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-16T05:24:44.005Z"
             }
           ]
         }

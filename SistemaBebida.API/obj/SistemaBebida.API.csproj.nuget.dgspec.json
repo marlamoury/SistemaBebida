@@ -68,13 +68,17 @@
               "target": "Package",
               "version": "[8.0.3, )"
             },
-            "Pomelo.EntityFrameworkCore.MySql": {
+            "Microsoft.Extensions.Http.Polly": {
               "target": "Package",
               "version": "[8.0.3, )"
             },
-            "RabbitMQ.Client": {
+            "Polly": {
               "target": "Package",
-              "version": "[7.1.1, )"
+              "version": "[8.5.2, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[8.0.3, )"
             },
             "Serilog.AspNetCore": {
               "target": "Package",
@@ -313,9 +317,25 @@
               "target": "Package",
               "version": "[8.0.3, )"
             },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Microsoft.Extensions.Configuration.FileExtensions": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
             "Pomelo.EntityFrameworkCore.MySql": {
               "target": "Package",
               "version": "[8.0.3, )"
+            },
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.8.1, )"
             }
           },
           "imports": [

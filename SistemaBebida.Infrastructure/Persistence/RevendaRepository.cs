@@ -22,7 +22,10 @@ namespace SistemaBebida.Infrastructure.Persistence
 
         public async Task<Revenda?> GetByIdAsync(int id)
         {
-            return await _context.Revendas.FindAsync(id);
+            return await _context.Revendas
+                .Include(r => r.Contatos)
+                .Include(r => r.EnderecosEntrega) // Adicionando os endereços
+                .FirstOrDefaultAsync(r => r.Id == id);
         }
 
         public async Task AddAsync(Revenda revenda)
