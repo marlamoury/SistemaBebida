@@ -149,3 +149,7 @@ C:\Users\marla\source\repos\SistemaBebida\SistemaBebida.API\obj\Debug\net8.0\ref
 C:\Users\marla\source\repos\SistemaBebida\SistemaBebida.API\obj\Debug\net8.0\SistemaBebida.API.pdb
 C:\Users\marla\source\repos\SistemaBebida\SistemaBebida.API\obj\Debug\net8.0\SistemaBebida.API.genruntimeconfig.cache
 C:\Users\marla\source\repos\SistemaBebida\SistemaBebida.API\obj\Debug\net8.0\ref\SistemaBebida.API.dll
+C:\Users\marla\source\repos\SistemaBebida\SistemaBebida.API\bin\Debug\net8.0\SistemaBebida.API.staticwebassets.endpoints.json
+C:\Users\marla\source\repos\SistemaBebida\SistemaBebida.API\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\marla\source\repos\SistemaBebida\SistemaBebida.API\obj\Debug\net8.0\staticwebassets\msbuild.SistemaBebida.API.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\marla\source\repos\SistemaBebida\SistemaBebida.API\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

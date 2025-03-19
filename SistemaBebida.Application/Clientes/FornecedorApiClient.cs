@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Text;
 using System.Text.Json;
 using System.Threading.Tasks;
@@ -21,14 +19,14 @@ namespace SistemaBebida.Application.Clientes
             var jsonContent = JsonSerializer.Serialize(pedido);
             var content = new StringContent(jsonContent, Encoding.UTF8, "application/json");
 
-            var response = await _httpClient.PostAsync("/api/pedidos", content);
+            // Simulação: Em vez de fazer a requisição real, retornamos um JSON fixo de sucesso.
+            await Task.Delay(500); // Simula um pequeno tempo de espera
 
-            if (!response.IsSuccessStatusCode)
+            return JsonSerializer.Serialize(new
             {
-                throw new Exception($"Erro ao criar pedido na API do fornecedor: {response.StatusCode}");
-            }
-
-            return await response.Content.ReadAsStringAsync();
+                mensagem = "Pedido criado com sucesso!",
+                pedidoId = new Random().Next(1000, 9999) // Gera um ID aleatório para o pedido
+            });
         }
     }
 }

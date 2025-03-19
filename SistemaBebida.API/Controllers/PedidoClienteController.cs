@@ -40,9 +40,9 @@ namespace SistemaBebida.API.Controllers
 
             pedido.ValorTotal = pedido.Itens.Sum(i => i.Total);
 
-            Console.WriteLine("📢 PedidoClienteController: Enviando pedido para PedidoClienteService...");
+            Console.WriteLine("PedidoClienteController: Enviando pedido para PedidoClienteService...");
 
-            await _pedidoClienteService.AdicionarPedidoAsync(pedido); // Agora está chamando o serviço
+            await _pedidoClienteService.AdicionarPedidoAsync(pedido);
 
             return CreatedAtAction(nameof(ObterPedido), new { id = pedido.Id }, pedido);
         }
@@ -50,7 +50,7 @@ namespace SistemaBebida.API.Controllers
         [HttpGet]
         public async Task<IActionResult> ListarPedidos()
         {
-            var pedidos = await _pedidoClienteService.GetAllAsync(); // Chamando o serviço ao invés do repositório
+            var pedidos = await _pedidoClienteService.GetAllAsync(); 
             return Ok(pedidos);
         }
 

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "MbkY3go5tfg6HBcoGTUAQI+Mtvdc2FynarXz92KqyamHRkBW5RpDKiGKGQxfhKXOgoJjhXuSVPpOBPaK4OrohA==",
+  "dgSpecHash": "2YwLx+9cz5w=",
   "success": true,
   "projectFilePath": "C:\\Users\\marla\\source\\repos\\SistemaBebida\\SistemaBebida.Tests\\SistemaBebida.Tests.csproj",
   "expectedPackageFiles": [
@@ -138,7 +138,7 @@
       "code": "NU1603",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "SistemaBebida.Tests depende de FluentAssertions (>= 6.13.0), mas FluentAssertions 6.13.0 não foi encontrado. A melhor correspondência aproximada de FluentAssertions 7.0.0 foi resolvida.",
+      "message": "SistemaBebida.Tests depende de FluentAssertions (>= 6.13.0) mas FluentAssertions 6.13.0 não foi encontrado. FluentAssertions 7.0.0 foi resolvido.",
       "libraryId": "FluentAssertions",
       "targetGraphs": [
         "net8.0"

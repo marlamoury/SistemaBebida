@@ -1,0 +1,316 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "SistemaBebida.API",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/pedidos-clientes": {
+      "post": {
+        "tags": [
+          "PedidoCliente"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PedidoClienteDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PedidoClienteDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/PedidoClienteDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "get": {
+        "tags": [
+          "PedidoCliente"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/pedidos-clientes/{id}": {
+      "get": {
+        "tags": [
+          "PedidoCliente"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/revendas": {
+      "post": {
+        "tags": [
+          "Revenda"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RevendaDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RevendaDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/RevendaDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "get": {
+        "tags": [
+          "Revenda"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/revendas/{id}": {
+      "get": {
+        "tags": [
+          "Revenda"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "ContatoDTO": {
+        "required": [
+          "nome"
+        ],
+        "type": "object",
+        "properties": {
+          "nome": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "email": {
+            "type": "string",
+            "format": "email",
+            "nullable": true
+          },
+          "telefone": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "EnderecoEntregaDTO": {
+        "required": [
+          "bairro",
+          "cep",
+          "cidade",
+          "estado",
+          "numero",
+          "rua"
+        ],
+        "type": "object",
+        "properties": {
+          "rua": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "numero": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "bairro": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "cidade": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "estado": {
+            "maxLength": 2,
+            "minLength": 0,
+            "type": "string"
+          },
+          "cep": {
+            "minLength": 1,
+            "pattern": "^\\d{8}$",
+            "type": "string"
+          },
+          "complemento": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ItemPedidoDTO": {
+        "required": [
+          "nomeProduto",
+          "precoUnitario",
+          "quantidade"
+        ],
+        "type": "object",
+        "properties": {
+          "nomeProduto": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "quantidade": {
+            "maximum": 2147483647,
+            "minimum": 1,
+            "type": "integer",
+            "format": "int32"
+          },
+          "precoUnitario": {
+            "minimum": 0,01,
+            "type": "number",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false
+      },
+      "PedidoClienteDTO": {
+        "required": [
+          "cnpjCliente",
+          "nomeCliente",
+          "revendaId"
+        ],
+        "type": "object",
+        "properties": {
+          "revendaId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "nomeCliente": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "cnpjCliente": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "itens": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/ItemPedidoDTO"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "RevendaDTO": {
+        "required": [
+          "cnpj",
+          "contatos",
+          "email",
+          "enderecosEntrega",
+          "nomeFantasia",
+          "razaoSocial"
+        ],
+        "type": "object",
+        "properties": {
+          "cnpj": {
+            "minLength": 1,
+            "pattern": "^\\d{14}$",
+            "type": "string"
+          },
+          "razaoSocial": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "nomeFantasia": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "email": {
+            "minLength": 1,
+            "type": "string",
+            "format": "email"
+          },
+          "telefones": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "nullable": true
+          },
+          "contatos": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/ContatoDTO"
+            }
+          },
+          "enderecosEntrega": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/EnderecoEntregaDTO"
+            }
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}

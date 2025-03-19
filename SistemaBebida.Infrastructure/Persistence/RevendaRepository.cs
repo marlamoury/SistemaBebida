@@ -24,7 +24,7 @@ namespace SistemaBebida.Infrastructure.Persistence
         {
             return await _context.Revendas
                 .Include(r => r.Contatos)
-                .Include(r => r.EnderecosEntrega) // Adicionando os endereços
+                .Include(r => r.EnderecosEntrega)
                 .FirstOrDefaultAsync(r => r.Id == id);
         }
 

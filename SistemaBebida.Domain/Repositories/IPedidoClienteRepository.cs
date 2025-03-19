@@ -9,6 +9,6 @@ namespace SistemaBebida.Domain.Repositories
         Task<IEnumerable<PedidoCliente>> GetAllAsync();
         Task<PedidoCliente?> GetByIdAsync(int id);
         Task AddAsync(PedidoCliente pedido);
-        Task SaveChangesAsync(); // Adicionado para garantir persistência
+        Task SaveChangesAsync();
     }
 }

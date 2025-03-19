@@ -7480,7 +7480,8 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      }
+      },
+      "SdkAnalysisLevel": "9.0.200"
     },
     "frameworks": {
       "net8.0": {
@@ -7535,7 +7536,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
       }
     }
   },
@@ -7544,7 +7545,7 @@
       "code": "NU1603",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "SistemaBebida.Tests depende de FluentAssertions (>= 6.13.0), mas FluentAssertions 6.13.0 não foi encontrado. A melhor correspondência aproximada de FluentAssertions 7.0.0 foi resolvida.",
+      "message": "SistemaBebida.Tests depende de FluentAssertions (>= 6.13.0) mas FluentAssertions 6.13.0 não foi encontrado. FluentAssertions 7.0.0 foi resolvido.",
       "libraryId": "FluentAssertions",
       "targetGraphs": [
         "net8.0"

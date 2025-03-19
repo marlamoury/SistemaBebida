@@ -1,0 +1,86 @@
+[
+  {
+    "ContainingType": "SistemaBebida.API.Controllers.PedidoClienteController",
+    "Method": "CriarPedido",
+    "RelativePath": "api/pedidos-clientes",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pedidoDTO",
+        "Type": "SistemaBebida.Application.DTOs.PedidoClienteDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SistemaBebida.API.Controllers.PedidoClienteController",
+    "Method": "ListarPedidos",
+    "RelativePath": "api/pedidos-clientes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SistemaBebida.API.Controllers.PedidoClienteController",
+    "Method": "ObterPedido",
+    "RelativePath": "api/pedidos-clientes/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SistemaBebida.API.Controllers.RevendaController",
+    "Method": "CadastrarRevenda",
+    "RelativePath": "api/revendas",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "revendaDTO",
+        "Type": "SistemaBebida.Application.DTOs.RevendaDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SistemaBebida.API.Controllers.RevendaController",
+    "Method": "ListarRevendas",
+    "RelativePath": "api/revendas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SistemaBebida.API.Controllers.RevendaController",
+    "Method": "BuscarRevenda",
+    "RelativePath": "api/revendas/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

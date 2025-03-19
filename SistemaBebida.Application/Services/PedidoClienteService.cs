@@ -1,4 +1,5 @@
-﻿using SistemaBebida.Domain.Entities;
+﻿using SistemaBebida.Application.Clientes;
+using SistemaBebida.Domain.Entities;
 using SistemaBebida.Domain.Repositories;
 using SistemaBebida.Infrastructure.Messaging;
 using System.Collections.Generic;
@@ -9,12 +10,18 @@ namespace SistemaBebida.Application.Services
     public class PedidoClienteService
     {
         private readonly IPedidoClienteRepository _pedidoClienteRepository;
-        private readonly PedidoClientePublisher _pedidoClientePublisher; // Adicionando o publisher
+        private readonly PedidoClientePublisher _pedidoClientePublisher;
+        private readonly FornecedorApiClient _fornecedorApiClient;
 
-        public PedidoClienteService(IPedidoClienteRepository pedidoClienteRepository, PedidoClientePublisher pedidoClientePublisher)
+
+        public PedidoClienteService(
+            IPedidoClienteRepository pedidoClienteRepository,
+            PedidoClientePublisher pedidoClientePublisher,
+            FornecedorApiClient fornecedorApiClient) 
         {
             _pedidoClienteRepository = pedidoClienteRepository;
-            _pedidoClientePublisher = pedidoClientePublisher; // Inicializando
+            _pedidoClientePublisher = pedidoClientePublisher;
+            _fornecedorApiClient = fornecedorApiClient; 
         }
 
         public async Task<IEnumerable<PedidoCliente>> GetAllAsync()
@@ -34,5 +41,19 @@ namespace SistemaBebida.Application.Services
             
             _pedidoClientePublisher.PublicarPedido(pedido);
         }
+
+        public async Task<string> EnviarPedidoParaFornecedorAsync(PedidoCliente pedido)
+        {
+            int totalQuantidade = pedido.Itens.Sum(i => i.Quantidade);
+
+            if (totalQuantidade < 1000)
+            {
+                throw new Exception("Pedido não pode ser enviado: quantidade mínima de 1000 unidades.");
+            }
+
+            return await _fornecedorApiClient.CriarPedidoAsync(pedido);
+        }
+
+
     }
 }

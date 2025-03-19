@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SistemaBebida.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+de75d2e35504fa1d2383f95a675b30d63f581d50")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0ac68222e87adc836bbc87dfe8d724926d09222a")]
 [assembly: System.Reflection.AssemblyProductAttribute("SistemaBebida.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SistemaBebida.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

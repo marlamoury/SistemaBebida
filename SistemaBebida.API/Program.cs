@@ -13,6 +13,7 @@ using System.Net.Http;
 using SistemaBebida.Application.Clientes;
 using SistemaBebida.Application.Services;
 using SistemaBebida.Infrastructure.Messaging;
+using SistemaBebida.API.Consumers;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -27,12 +28,19 @@ builder.Services.AddScoped<IPedidoClienteRepository, PedidoClienteRepository>();
 builder.Services.AddScoped<PedidoClienteService>();
 builder.Services.AddSingleton<PedidoClientePublisher>();
 
+builder.Services.AddHttpClient<FornecedorApiClient>()
+    .AddPolicyHandler(GetRetryPolicy()); 
+
+
 // Configuração da integração com a API do fornecedor com resiliência usando Polly
 builder.Services.AddHttpClient<FornecedorApiClient>(client =>
 {
     client.BaseAddress = new Uri(builder.Configuration["FornecedorApi:BaseUrl"]);
 })
-.AddPolicyHandler(GetRetryPolicy()); // 🔹 Certifique-se que Polly está instalado
+.AddPolicyHandler(GetRetryPolicy()); 
+
+// Adicionando o Consumer como HostedService
+builder.Services.AddHostedService<PedidoClienteConsumer>();
 
 // Adicionando serviços necessários
 builder.Services.AddControllers();
